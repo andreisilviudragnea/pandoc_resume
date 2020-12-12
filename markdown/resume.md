@@ -1,100 +1,41 @@
-Johnny Coder
-============
-
-----
-
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
-
-----
+Andrei Silviu Dragnea
+=====================
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2013-2017
+:   **BSc, Computer Science and Engineering**; Faculty of Automatic
+    Control and Computers, Politehnica University of Bucharest (Bucharest)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
+    *Thesis title: Automatic Recursion Removal in Java (as an [Intellij Plugin](https://plugins.jetbrains.com/plugin/10295-remove-recursion-inspection))*
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+* Good knowledge of Operating Systems internals
+* Proficient in C, C++, Kotlin, Java and Python
+* Middle level in Rust
+* Passionate about type systems, static analysis and programming language design
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+September 2017 - December 2017
+: **Software Developer at Instacar**
+I was mainly responsible for implementing a TCP server communicating with some devices capable of remote car control, which used a proprietary binary protocol. I have also been responsible for integrating the backend with Amazon Cloudwatch. Because of the rather poorly maintained codebase, I introduced type hints in the code and I have also developed a Pycharm [plugin](https://plugins.jetbrains.com/plugin/10194-python-enhancements) for automatic detection and removal of dead code, provided the code base had enough type hints specified in order to refactor the code reliably. The source is available [here](https://github.com/andreisilviudragnea/PythonDCE).
 
-* First item
+January 2018 - February 2018
+: **Linux Embedded Developer at Enea**
+I was responsible for developing the firmware of a simulator for a smoke detectors network.
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+I am an active contributor to the [Intellij Platform](https://github.com/JetBrains/intellij-community/pull/697) and an aspiring contributor to LLVM, the Rust compiler and the Linux kernel. I generally inspire myself and contribute to open source projects which share my values for code quality.
 
-**That Other Job You Had**
+Bachelor thesis
+---------------
 
-Also with a short description.
+Recursion Removal in Java
+:   Recursion can rapidly exhaust the stack space of a program and it can
+    be replaced with iteration by simulating the stack in the user program.
+    I have implemented a custom *inspection* for Intellij IDEA (which basically extends the *Tail Recursion* inspection from the *Performance Group*), which automatically detects recursive methods in Java code and replaces them with equivalent iterative versions of the code. The algorithm is rather complex and it is described [here](https://github.com/andreisilviudragnea/remove-recursion-inspection/blob/master/thesis/thesis.pdf). The inspection is implemented in Kotlin and the source is available [here](https://github.com/andreisilviudragnea/remove-recursion-inspection).
 
-Technical Experience
---------------------
-
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
-
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
-
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
-
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> [Github account](https://github.com/andreisilviudragnea)\
+> <andreisilviudragnea@gmail.com> • +40 746 337 605 • 24 years old\
+> Bucharest, Romania
