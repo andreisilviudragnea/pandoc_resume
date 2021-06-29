@@ -44,13 +44,13 @@ March 2018 - Present
 I am part of the Identity Management Services team. I worked on implementing the server side of the SCIM2 
 protocol over a Spring 5 reactive stack. I developed a thin wrapper over Mockito and Spring TestContext
 framework in order to promote writing [clean tests](https://medium.com/@andreisilviudragnea/towards-cleaner-pure-tests-20f1356dee4c).
-I introduced Kotlin and coroutines to our team, as a developer-friendly alternative to writing non-blocking code.
+I introduced Kotlin and coroutines to our team, as a developer-friendly alternative for writing non-blocking code.
 I made major software architectural changes by using smart refactoring tricks, resulting in a simpler system design.
 
 September 2017 - December 2017
 : **Software Engineer at Instacar**
 I implemented a TCP server over a proprietary binary protocol for remote car control.
-I introduced type hints to the Python 3 codebase and I developed a Pycharm [plugin](https://plugins.jetbrains.com/plugin/10194-python-enhancements)
+I introduced type hints to the Python 3 codebase, and I developed a Pycharm [plugin](https://plugins.jetbrains.com/plugin/10194-python-enhancements)
 for dead code elimination.
 
 I always strive the find the simplest solution possible to a problem. I proactively fix problems
