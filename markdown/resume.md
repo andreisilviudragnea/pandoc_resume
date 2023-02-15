@@ -1,14 +1,6 @@
 Andrei Silviu Dragnea
 =====================
 
-----
-
-> Professional automator passionate about static analysis, refactoring and
-> automating every aspect of the software development process.
-> A developer eager to make other developers' lives easier.
-
-----
-
 Education
 ---------
 
@@ -21,9 +13,15 @@ Education
 Experience
 ----------
 
+* Expert in refactoring and decoupling complex systems into self-contained and loosely-coupled components
 * Intellij plugin [developer](https://plugins.jetbrains.com/plugin/10194-python-enhancements)
-* Spring framework
-* Async programming expert (Project Reactor from Spring, Kotlin coroutines, cats-effect from Scala, Rust async programming)
+* [Spring](https://github.com/spring-projects/spring-framework) and [Spring Boot](https://github.com/spring-projects/spring-boot) framework expert
+* Async programming expert: [Project Reactor](https://github.com/reactor/reactor-core) from Spring,
+ [Kotlin coroutines](https://github.com/Kotlin/kotlinx.coroutines),
+ [cats-effect](https://github.com/typelevel/cats-effect) and [zio](https://github.com/zio/zio) from Scala,
+ Rust [async](https://rust-lang.github.io/async-book/) programming
+* Experience in profiling JVM applications and optimizing runtime performance and resource usage 
+using [VisualVM](https://visualvm.github.io/)
 * Open source contributor to
   [Docker](https://github.com/docker/docs/pull/15477),
   [mockito](https://github.com/mockito/mockito/pulls?q=is%3Apr+author%3Aandreisilviudragnea+is%3Aclosed),
@@ -33,14 +31,15 @@ Experience
   [reactor-netty](https://github.com/reactor/reactor-netty/issues/628),
   [netty](https://github.com/netty/netty/issues/8915),
   [spring-framework](https://github.com/spring-projects/spring-framework/pull/24977),
-  Scala [kubernetes-client](https://github.com/joan38/kubernetes-client/pull/106)
+  Scala [kubernetes-client](https://github.com/joan38/kubernetes-client/pull/106),
+  [Renovate](https://github.com/renovatebot/renovate/pull/14566)
 * Proficient in Java, Kotlin, Scala, Rust, C and Python
-* Build system expert: Maven, Gradle, Earthly, Docker, sbt
+* Build system expert: Maven, Gradle, Earthly, Docker, sbt. Reduced build times of Scala projects significantly.
 * Author of an automatic Git [rebaser](https://github.com/andreisilviudragnea/rebaser) written in Rust
 * Passionate about static analysis and automatic refactoring in Java, Kotlin, Scala and Rust
 * Working on a [converter](https://github.com/andreisilviudragnea/reactor-to-kotlin) from Java reactive code to Kotlin coroutines
 * Experience with enterprise identity protocols and frameworks, such as OAuth2, SCIM2, SAML
-* Worked with Docker, Kubernetes, Envoy, Grafana, Prometheus, AWS EC2, S3, Route53, Cloudwatch, Splunk, Datadog, NewRelic, Azure Active Directory
+* Worked with Kafka, Docker, Kubernetes, Envoy, Grafana, Prometheus, AWS EC2, S3, Route53, Cloudwatch, Splunk, Datadog, NewRelic, Azure Active Directory, Jenkins
 * Good knowledge of Operating Systems internals and how async frameworks are implemented
 * Promoter of the [clean tests](https://medium.com/@andreisilviudragnea/towards-cleaner-pure-tests-20f1356dee4c) paradigm
 
@@ -50,7 +49,8 @@ I work on a performance-sensitive system collecting Analytics events from video 
 runtime performance by correctly handling blocking calls, thus avoiding starving the
 [cats-effect](https://github.com/typelevel/cats-effect) compute pool. I also enforced strong static analysis checks on
 the Scala project at compile time, in order to maintain the high quality of the code. I re-wrote the event ingestion 
-system in Rust as a POC, resulting into 2.6x CPU usage and 50x memory usage reduction.
+system in Rust as a POC, resulting into 2.6x CPU usage and 50x memory usage reduction. I also optimized Kafka Java 
+client performance by using a separate thread for blocking `KafkaProducer.send()` calls.
 
 March 2018 - May 2021
 : **Software Engineer at Adobe (Identity Management Services team)**
