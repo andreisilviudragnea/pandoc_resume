@@ -39,7 +39,7 @@ using [VisualVM](https://visualvm.github.io/)
 * Passionate about static analysis and automatic refactoring in Java, Kotlin, Scala and Rust
 * Working on a [converter](https://github.com/andreisilviudragnea/reactor-to-kotlin) from Java reactive code to Kotlin coroutines
 * Experience with enterprise identity protocols and frameworks, such as OAuth2, SCIM2, SAML
-* Worked with Kafka, Docker, Kubernetes, Envoy, Grafana, Prometheus, AWS EC2, S3, Route53, Cloudwatch, Splunk, Datadog, NewRelic, Azure Active Directory, Jenkins
+* Worked with Kafka, Apache Spark, Docker, Kubernetes, Envoy, Grafana, Prometheus, AWS EC2, S3, Route53, Cloudwatch, Splunk, Datadog, NewRelic, Azure Active Directory, Jenkins
 * Good knowledge of Operating Systems internals and how async frameworks are implemented
 * Promoter of the [clean tests](https://medium.com/@andreisilviudragnea/towards-cleaner-pure-tests-20f1356dee4c) paradigm
 
