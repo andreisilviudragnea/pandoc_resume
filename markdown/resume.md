@@ -39,25 +39,27 @@ using [VisualVM](https://visualvm.github.io/)
 * Passionate about static analysis and automatic refactoring in Java, Kotlin, Scala and Rust
 * Working on a [converter](https://github.com/andreisilviudragnea/reactor-to-kotlin) from Java reactive code to Kotlin coroutines
 * Experience with enterprise identity protocols and frameworks, such as OAuth2, SCIM2, SAML
-* Worked with Kafka, Apache Spark, Docker, Kubernetes, Envoy, Grafana, Prometheus, AWS EC2, S3, Route53, Cloudwatch, Splunk, Datadog, NewRelic, Azure Active Directory, Jenkins
+* Worked with Kafka, Apache Spark, Docker, Kubernetes, Envoy, Grafana, Prometheus, AWS EC2, S3, Route53, Cloudwatch, 
+Splunk, Datadog, NewRelic, Azure Active Directory, Jenkins, ScalaTest, ScalaMock, JUnit, TestNG, Renovate, Dependabot,
+Cassandra, MySQL.
 * Good knowledge of Operating Systems internals and how async frameworks are implemented
 * Promoter of the [clean tests](https://medium.com/@andreisilviudragnea/towards-cleaner-pure-tests-20f1356dee4c) paradigm
 
 May 2021 - Present
 : **Software Engineer at Adobe (Media Analytics team)**
-I work on a performance-sensitive system collecting Analytics events from video players in web browsers. I optimized the
-runtime performance by correctly handling blocking calls, thus avoiding starving the
-[cats-effect](https://github.com/typelevel/cats-effect) compute pool. I also enforced strong static analysis checks on
-the Scala project at compile time, in order to maintain the high quality of the code. I re-wrote the event ingestion 
-system in Rust as a POC, resulting into 2.6x CPU usage and 50x memory usage reduction. I also optimized Kafka Java 
-client performance by using a separate thread for blocking `KafkaProducer.send()` calls.
+I work on a performance-sensitive Video Analytics system written in Scala, which handles 2.6 million of events per 
+second at peak traffic. I optimized the runtime performance by correctly handling blocking calls in the non-blocking 
+events collecting system. The event ingestion system writes the events in Kafka topics, from where an Apache Spark job 
+processes them and generates reports. I implemented an event filtering mechanism for dropping traffic from 
+customers not paying a subscription, in order to reduce costs in our infrastructure. I also re-wrote the event ingestion
+system in Rust, resulting into 2.6x CPU usage and 50x memory usage reduction.
 
 March 2018 - May 2021
 : **Software Engineer at Adobe (Identity Management Services team)**
 I was part of the Identity Management Services team. I worked on implementing the server side of the SCIM2 
 protocol over a Spring 5 reactive stack. I developed a thin wrapper over Mockito and Spring TestContext
 framework in order to promote writing [clean tests](https://medium.com/@andreisilviudragnea/towards-cleaner-pure-tests-20f1356dee4c).
-I introduced Kotlin and coroutines to our team, as a developer-friendly alternative to writing non-blocking code.
+I introduced Kotlin and coroutines to our team, as a developer-friendly alternative for writing non-blocking code.
 I made major software architectural changes by using smart refactoring tricks, resulting in a simpler system design.
 
 September 2017 - December 2017
